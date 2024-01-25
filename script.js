@@ -141,7 +141,7 @@ navigator.mediaDevices
     const bufferLength = analyserNode.frequencyBinCount;
     const dataArray = new Uint8Array(bufferLength);
 
-    const loudnessThreshold = 200; // Adjust this threshold as needed
+    const loudnessThreshold = 260; // Adjust this threshold as needed
     let isBlowing = false;
 
     // Check loudness and handle blowing every 100 milliseconds
