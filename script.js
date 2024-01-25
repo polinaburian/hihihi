@@ -146,7 +146,7 @@ navigator.mediaDevices
 
     // Check loudness and handle blowing every 100 milliseconds
     setInterval(() => {
-      const loudnessThreshold = 80; // Adjust this threshold as needed
+      const loudnessThreshold = 60; // Adjust this threshold as needed
       const isBlowing = checkLoudness(analyserNode, loudnessThreshold);
 
       if (isBlowing) {
